@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background-color: blue;
+}
+.header__logo, .nav, .nav__list li {
+  display: inline-block;
+  margin-bottom: 40px;
+}
+.nav {
+  position: absolute;
+  right: 0;
+}
+.nav__list {
+  list-style: none;
+}
+.nav__list li a {
+  text-decoration: none;
+  color: white;
+}
+.main {
+  height: 100%;
+  background-color: grey;
+}
+.element {
+  display: inline-block;
+  height: 100%;
+  padding: 10px;
+  background-color: orange;
+}
+.element__divs div {
+  display: block;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.element__divs__el {
+  width: 180px;
+  height: 100px;
+  background-color: burlywood;
+}
+.content {
+  display: inline-block;
+  padding: 10px;
+  position: absolute;
+}
